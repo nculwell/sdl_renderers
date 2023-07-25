@@ -7,7 +7,7 @@ CFLAGS_CONF=$(CFLAGS_CONF_DEBUG)
 CFLAGS_LIBS=$(shell sdl2-config --cflags)
 CFLAGS=$(CFLAGS_LANG) $(CFLAGS_CONF) $(CFLAGS_LIBS)
 LDLIBS=$(shell sdl2-config --libs)
-EXE=list_rend
+EXE=sdl_renderers
 
 all: debug
 
